@@ -1,0 +1,182 @@
+{
+    "header":{
+        "nav": {
+            "logo": "http://sterntelecom.com/img/logos/logo-black.png",
+            "items": [
+                {
+                    "url": "/home",
+                    "text": "Home"
+                },
+                {
+                    "url": "/about",
+                    "text": "About"
+                },
+                {
+                    "url": "/contact",
+                    "text": "Contact"
+                }
+            ]
+        }
+    },
+    "footer": {
+        "copyright": "Copyright © Sterntelecom 2019"
+    },
+    "partners": [
+        {
+            "company":"motorola",
+            "image":"/media/motorola.png",
+            "imageAlt":"motorola"
+        },
+        {
+            "company":"samsung",
+            "image":"/media/samsung.png",
+            "imageAlt":"samsung"
+        },
+        {
+            "company":"xiaomi",
+            "image":"/media/xiaomi.png",
+            "imageAlt":"xiaomi"
+        }
+    ],
+    "home":{
+        "landing":{
+            "titleAndSub":{
+                "title":"WooCommerce Migration Experts 50,000+ Stores Migrated",
+                "sub": "",
+                "text": "Migrate your Products, Orders, Users, Reviews and More. We use a combination of tools and expert services to make sure your store is migrated without any glitches. You can trust our experts and relax while we do everything for you!",
+                "align":"center",
+                "type":"head"
+            },
+            "image": "https://images.unsplash.com/photo-1566576721346-d4a3b4eaeb55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=802&q=80",
+            "button": {
+                "text":"Ga verder",
+                "url":"#"
+            },
+            "direction":"column"
+        },
+        "aboutUs":{
+            "titleAndSub":{
+                "title":"What we  do",
+                "sub": "From start to finish, we are here to help",
+                "text": "",
+                "type":"intro",
+                "align":"center"
+            },
+            "button": {
+                "text":"Ga verder",
+                "url":"#"
+            },
+            "work":[
+                {
+                    "title":"Truest",
+                    "icon":"smartphone",
+                    "text":"Stern Telecom is one of the biggest international distributors of smartphones in The Netherlands. With its head office in Amsterdam Stern Telecom has accomplished to establish a strong and trustworthy record the past decennia.                    "
+                },
+                {
+                    "title":"International",
+                    "icon":"public",
+                    "text":"With the aim on the international market Stern Telecom is able to provide every customer and partner around the world with the best products. Our suppliers and intermediaries work closely together to increase efficiency and offer reliable services.                    "
+                },
+                {
+                    "title":"Our products",
+                    "icon":"person",
+                    "text":"Stern Telecom offers products ranging from low till high end and include brands such as: Samsung, Sony, Microsoft, Motorola, Apple and more. Is your company interested? Feel free to contact us for any of your questions or remarks.                    "
+                }
+            ]
+        },
+        "textAndImage":{
+            "image":"https://volksshop.nl/wp-content/uploads/2019/02/stern-pand.jpg",
+            "text": {
+                "subject":"Hi",
+                "sticker":"Sticker Text",
+                "title":"Title",
+                "list":[
+                    {
+                        "bullet":"Bullet info text"
+                    },
+                    {
+                        "bullet":"Bullet info text"
+                    },
+                    {
+                        "bullet":"Bullet info text"
+                    }
+                ]
+            }
+        },
+        "tab":[
+            {
+                "head":"Travel",
+                "icon":"star",
+                "items":[
+                    {
+                        "item":"Item for tab"
+                    },
+                    {
+                        "item":"Item for tab"
+                    },
+                    {
+                        "item":"Item for tab"
+                    },
+                    {
+                        "item":"Item for tab"
+                    }
+                ]
+            },
+            {
+                "head":"Secure",
+                "icon":"star",
+                "items":[
+                    {
+                        "item":"Item for tab"
+                    },
+                    {
+                        "item":"Item for tab"
+                    },
+                    {
+                        "item":"Item for tab"
+                    },
+                    {
+                        "item":"Item for tab"
+                    }
+                ]
+            },
+            {
+                "head":"Promise",
+                "icon":"star",
+                "items":[
+                    {
+                        "item":"Item for tab"
+                    },
+                    {
+                        "item":"Item for tab"
+                    },
+                    {
+                        "item":"Item for tab"
+                    },
+                    {
+                        "item":"Item for tab"
+                    }
+                ]
+            },
+            {
+                "head":"Stern",
+                "icon":"star",
+                "items":[
+                    {
+                        "item":"Item for tab"
+                    },
+                    {
+                        "item":"Item for tab"
+                    },
+                    {
+                        "item":"Item for tab"
+                    },
+                    {
+                        "item":"Item for tab"
+                    }
+                ]
+            }
+        ]
+    }
+    
+}
