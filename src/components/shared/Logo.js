@@ -2,12 +2,12 @@ import React from "react";
 import styled from "styled-components";
 
 const LogoImg = styled.img`
-  max-width: 150px;
+  max-width: ${props => (props.big ? "500px" : "150px")};
   width: 100%;
 `;
 
-const Logo = ({ data }) => {
-  return <LogoImg src={data} />;
+const Logo = ({ data, big }) => {
+  return <LogoImg src={data} big={big} />;
 };
 
 export default Logo;

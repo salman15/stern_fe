@@ -7,6 +7,7 @@ import Landing from "../../components/home/landing/Landing";
 import TitleAndSub from "../../components/shared/TitleAndSub";
 import Tab from "../../components/home/tabs/Tab";
 import TextAndImage from "../../components/home/textAndImage/TextAndImage";
+import Contact from "../../components/shared/Contact";
 import Copy from "../../data/Copy.json";
 
 const Container = styled.div`
@@ -21,28 +22,56 @@ const Container = styled.div`
 const Home = () => {
   const aboutUs = Copy.home.aboutUs;
   const aboutUsTitle = aboutUs.titleAndSub;
+  const tabTitle = Copy.home.tab.titleAndSub;
   return (
     <Container id="home">
       <Landing data={Copy.home.landing} />
-      <ContainerLayout>
-        <Partners data={Copy.partners} />
+
+      <ContainerLayout size="100%">
+        <ContainerLayout>
+          <Partners data={Copy.partners} />
+        </ContainerLayout>
       </ContainerLayout>
-      <ContainerLayout align={aboutUsTitle.align}>
-        <TitleAndSub
-          title={aboutUsTitle.title}
-          sub={aboutUsTitle.sub}
-          type={aboutUsTitle.type}
-          align={aboutUsTitle.align}
-        />
+
+      <ContainerLayout background="#f2f3f6" size="100%">
+        <ContainerLayout direction="column">
+          <TitleAndSub
+            title={aboutUsTitle.title}
+            sub={aboutUsTitle.sub}
+            type={aboutUsTitle.type}
+            align={aboutUsTitle.align}
+          />
+          <Work data={Copy.home.aboutUs.work} />
+          <TextAndImage data={Copy.home.textAndImage} />
+        </ContainerLayout>
       </ContainerLayout>
-      <ContainerLayout>
-        <Work data={Copy.home.aboutUs.work} />
+
+      <ContainerLayout size="100%">
+        <ContainerLayout direction="column">
+          <TitleAndSub
+            title={tabTitle.title}
+            sub={tabTitle.sub}
+            type={tabTitle.type}
+            align={tabTitle.align}
+          />
+          <Tab data={Copy.home.tab.tabs} />
+        </ContainerLayout>
       </ContainerLayout>
-      <ContainerLayout>
-        <TextAndImage data={Copy.home.textAndImage} />
-      </ContainerLayout>
-      <ContainerLayout>
-        <Tab data={Copy.home.tab} />
+      <ContainerLayout
+        size="100%"
+        background="#002573"
+        backgroundImage="http://sterntelecom.com/img/map-image.png"
+      >
+        <ContainerLayout direction="column">
+          <TitleAndSub
+            title={tabTitle.title}
+            sub={tabTitle.sub}
+            type={tabTitle.type}
+            align={tabTitle.align}
+            color="white"
+          />
+          <Contact company={Copy.general.company} data={Copy.home.contact} />
+        </ContainerLayout>
       </ContainerLayout>
     </Container>
   );

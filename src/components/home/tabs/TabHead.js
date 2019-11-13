@@ -8,7 +8,7 @@ const Container = styled.div`
   justify-content: center;
   width: 100%;
   min-height: 40%;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 `;
 const IconContainer = styled.div`
   cursor: pointer;
@@ -18,14 +18,18 @@ const IconContainer = styled.div`
   width: 100%;
   height: 150px;
   flex-direction: column;
-  border-bottom: solid 2px;
-  border-color: ${props => (props.active ? "blue" : "black")};
-  color: ${props => (props.active ? "blue" : "black")};
+  border-bottom: solid ${props => (props.active ? "4px" : "2px")};
+  border-color: ${props => (props.active ? "#00d69f" : "#f2f3f5")};
+  color: ${props => (props.active ? "#00d69f" : "black")};
+  transition: all 0.5s ease;
   span {
     font-size: 64px;
   }
 `;
-const HeadItem = styled.div``;
+const HeadItem = styled.p`
+  color: #00d69f;
+  font-weight: bold;
+`;
 
 const TabHead = ({ data, head, setHead }) => {
   return (

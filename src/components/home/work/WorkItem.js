@@ -7,6 +7,7 @@ const Container = styled.div`
   align-items: center;
   justify-content: center;
   width: 100%;
+  max-width: 200px;
   flex-direction: column;
   text-align: center;
 `;
@@ -23,7 +24,10 @@ const IconContainer = styled.div`
     font-size: 64px;
   }
 `;
-const Title = styled.h1``;
+const Title = styled.h1`
+  font-size: 15px;
+  color: #14203c;
+`;
 const Work = styled.p``;
 
 const WorkItem = ({ title, text, icon }) => {

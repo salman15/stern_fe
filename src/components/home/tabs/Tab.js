@@ -11,7 +11,7 @@ const Container = styled.div`
   min-height: 40%;
   padding: 100px 0px;
   flex-direction: column;
-  padding: 20px;
+  padding: 100px 0;
 `;
 
 const TabContent = styled.div`
@@ -21,7 +21,7 @@ const TabContent = styled.div`
   flex-direction: column;
   width: 100%;
   padding: 20px;
-  border: solid 1px;
+  border: solid 1px #f2f3f5;
 `;
 
 const Tab = ({ data }) => {

@@ -5,7 +5,7 @@ const Container = styled.div`
   display: flex;
   width: 100%;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 `;
 
 const Work = ({ data }) => {

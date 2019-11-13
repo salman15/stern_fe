@@ -9,8 +9,8 @@ const Container = styled.div`
   justify-content: center;
   background-color: wheat;
   width: 100%;
-  min-height: 40%;
-  padding: 100px 0px;
+  min-height: 60vh;
+  padding: 200px 0px;
   background-image: url(https://www.storefrog.com/wp-content/themes/storefrog/img/background.png);
   background-size: cover;
   color: white;
@@ -18,14 +18,15 @@ const Container = styled.div`
 
 const CompanyImage = styled.img`
   object-fit: cover;
-  height: 500px;
+  height: 400px;
   max-height: 100%;
+  max-width: 50%;
 `;
 
 const Landing = ({ data }) => {
   return (
     <Container>
-      <ContainerLayout>
+      <ContainerLayout align={data.titleAndSub.align}>
         <TitleAndSub
           title={data.titleAndSub.title}
           sub={data.titleAndSub.sub}

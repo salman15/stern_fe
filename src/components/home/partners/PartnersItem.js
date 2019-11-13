@@ -8,7 +8,9 @@ const Container = styled.div`
 `;
 const Partner = styled.img`
   height: 70px;
-  object-fit: cover;
+  height: 70px;
+  width: 70px;
+  object-fit: scale-down;
   filter: grayscale(100%);
   opacity: 0.3;
 `;

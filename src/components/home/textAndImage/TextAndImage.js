@@ -9,7 +9,7 @@ const Container = styled.div`
 
   width: 100%;
 
-  padding: 100px 0px;
+  padding-bottom: 100px;
 `;
 
 const TextAndImage = ({ data }) => {

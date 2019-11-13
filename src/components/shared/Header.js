@@ -6,16 +6,18 @@ import Copy from "../../data/Copy";
 const Nav = styled.nav`
   position: absolute;
   display: flex;
-  width: 100%;
+  width: calc(100% - 40px);
+  max-width: 80%;
   height: 40px;
+  left: 50%;
+  transform: translateX(-50%);
   align-items: center;
-  justify-content: center;
-  padding: 20px;
+  justify-content: space-between;
+  margin: 20px;
 `;
 
 const NavList = styled.ul`
   display: flex;
-  width: 100%;
   align-items: center;
   justify-content: center;
   padding: 0px;
@@ -27,6 +29,10 @@ const NavList = styled.ul`
 
 const NavListItem = styled.li`
   padding: 5px 10px;
+  a {
+    color: white;
+    text-decoration: none;
+  }
 `;
 
 const Header = () => {
