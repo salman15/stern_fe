@@ -13,7 +13,7 @@ const Img = styled.img`
   object-fit: cover;
   height: 300px;
   max-height: 100%;
-  border-radius: 4px;
+  border-radius: 0.25rem;
 `;
 
 const Image = ({ data }) => {

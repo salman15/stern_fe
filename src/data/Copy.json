@@ -87,18 +87,18 @@
         "textAndImage":{
             "image":"https://volksshop.nl/wp-content/uploads/2019/02/stern-pand.jpg",
             "text": {
-                "subject":"Hi",
-                "sticker":"Sticker Text",
-                "title":"Title",
+                "subject":"STOREFROG",
+                "sticker":"Our experts build the tools. let them handle the migration for you",
+                "title":"50,000+ Active Installs",
                 "list":[
                     {
-                        "bullet":"Bullet info text"
+                        "bullet":"Order Export & Order Import for WooCommerce"
                     },
                     {
-                        "bullet":"Bullet info text"
+                        "bullet":"Order Export & Order Import for WooCommerce"
                     },
                     {
-                        "bullet":"Bullet info text"
+                        "bullet":"Order Export & Order Import for WooCommerce"
                     }
                 ]
             }
@@ -106,7 +106,7 @@
         "tab":[
             {
                 "head":"Travel",
-                "icon":"star",
+                "icon":"FlightOutlined",
                 "items":[
                     {
                         "item":"Item for tab"
@@ -124,7 +124,7 @@
             },
             {
                 "head":"Secure",
-                "icon":"star",
+                "icon":"LockOutlined",
                 "items":[
                     {
                         "item":"Item for tab"
@@ -142,7 +142,7 @@
             },
             {
                 "head":"Promise",
-                "icon":"star",
+                "icon":"FavoriteBorderOutlined",
                 "items":[
                     {
                         "item":"Item for tab"
@@ -160,7 +160,7 @@
             },
             {
                 "head":"Stern",
-                "icon":"star",
+                "icon":"BusinessOutlined",
                 "items":[
                     {
                         "item":"Item for tab"

@@ -7,18 +7,21 @@ const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: wheat;
   width: 100%;
   min-height: 40%;
   padding: 100px 0px;
   flex-direction: column;
+  padding: 20px;
 `;
 
 const TabContent = styled.div`
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-content: stretch;
+  justify-items: start;
   flex-direction: column;
+  width: 100%;
+  padding: 20px;
+  border: solid 1px;
 `;
 
 const Tab = ({ data }) => {
@@ -26,9 +29,14 @@ const Tab = ({ data }) => {
 
   return (
     <Container>
-      <TabHead data={data} setHead={setHead} />
+      <TabHead data={data} head={head} setHead={setHead} />
       <TabContent>
-        <TabItem data={data} head={head} />
+        {data.map(
+          tabs =>
+            tabs.head === head && (
+              <TabItem data={tabs} head={tabs.head} activeHead={head} />
+            )
+        )}
       </TabContent>
     </Container>
   );

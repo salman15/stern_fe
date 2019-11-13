@@ -6,34 +6,37 @@ const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: wheat;
   width: 100%;
   min-height: 40%;
-  padding: 100px 0px;
+  padding-bottom: 10px;
 `;
 const IconContainer = styled.div`
+  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 150px;
-  border: 1px solid #e8e7e7;
+  width: 100%;
   height: 150px;
-  border-radius: 50%;
   flex-direction: column;
-
+  border-bottom: solid 2px;
+  border-color: ${props => (props.active ? "blue" : "black")};
+  color: ${props => (props.active ? "blue" : "black")};
   span {
     font-size: 64px;
   }
 `;
 const HeadItem = styled.div``;
 
-const TabHead = ({ data, setHead }) => {
+const TabHead = ({ data, head, setHead }) => {
   return (
     <Container>
       {data.map(item => (
         <>
-          <IconContainer onClick={() => setHead(item.head)}>
-            <Icon>{item.icon}</Icon>
+          <IconContainer
+            active={item.head === head}
+            onClick={() => setHead(item.head)}
+          >
+            <Icon>{item.icon.toLowerCase()}</Icon>
             <HeadItem>{item.head}</HeadItem>
           </IconContainer>
         </>
