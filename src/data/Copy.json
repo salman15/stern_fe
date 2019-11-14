@@ -234,7 +234,9 @@
                 "text":"Ga verder",
                 "url":"#"
             },
-            "form":[{
+            "form":{
+            "active":false,
+            "list":[{
                 "type":"email",
                 "placeholder":"place your email"
             },{
@@ -246,7 +248,14 @@
             },{
                 "type":"textarea",
                 "placeholder":"place your message"
-            }],
+            }]},
+            "mailAndPhone":{
+                "active":true,
+                "mailText":"Mail to:",
+                "mail":"info@sterntelecom.com",
+                "callText": "Call to:",
+                "tel":"+315323432"
+            },
             "BankInfo":[
                 {
                     "title":"Bank Details:",

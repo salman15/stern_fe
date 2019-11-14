@@ -2,9 +2,10 @@ import React from "react";
 import styled from "styled-components";
 import { MainButton } from "./Buttons";
 import CompanyInfo from "./CompanyInfo";
+import MailAndPhone from "./MailAndPhone";
 const Container = styled.div`
   display: flex;
-  align-items: end;
+  align-items: ${props => (props.align ? "end" : "center")};
   justify-content: space-between;
   width: 100%;
   padding: 100px 0px;
@@ -61,20 +62,27 @@ const Comapny = styled.h1`
 
 const Contact = ({ data, company }) => {
   return (
-    <Container>
-      <Form>
-        {data.form.map(item =>
-          item.type === "textarea" ? (
-            <FormTextArea
-              placeholder={item.placeholder}
-              type={item.placeholder}
-            />
-          ) : (
-            <FormInput placeholder={item.placeholder} type={item.placeholder} />
-          )
-        )}
-        <MainButton data={data.button} bgColor="black" color="white" />
-      </Form>
+    <Container align={data.form.active}>
+      {data.form.active && (
+        <Form>
+          {data.form.list.map(item =>
+            item.type === "textarea" ? (
+              <FormTextArea
+                placeholder={item.placeholder}
+                type={item.placeholder}
+              />
+            ) : (
+              <FormInput
+                placeholder={item.placeholder}
+                type={item.placeholder}
+              />
+            )
+          )}
+          <MainButton data={data.button} bgColor="black" color="white" />
+        </Form>
+      )}
+
+      {data.mailAndPhone.active && <MailAndPhone data={data.mailAndPhone} />}
 
       <CompanyContainer>
         <Comapny>{company}</Comapny>
