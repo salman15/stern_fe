@@ -14,6 +14,12 @@ const Nav = styled.nav`
   align-items: center;
   justify-content: space-between;
   margin: 20px;
+  @media screen and (max-width: 662px) {
+    max-width: 100%;
+    flex-direction: column;
+    left: initial;
+    transform: initial;
+  }
 `;
 
 const NavList = styled.ul`

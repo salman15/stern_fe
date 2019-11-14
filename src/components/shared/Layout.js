@@ -12,8 +12,8 @@ const Container = styled.div`
   background-image: url(${props => props.backgroundImage});
   background-attachment: fixed;
   @media screen and (max-width: 662px) {
-    flex-direction: column-reverse;
-    width: 90%;
+    flex-direction: column;
+    width: 100%;
   }
 `;
 

@@ -14,6 +14,9 @@ const Img = styled.img`
   height: 300px;
   max-height: 100%;
   border-radius: 0.25rem;
+  @media screen and (max-width: 662px) {
+    height: 150px;
+  }
 `;
 
 const Image = ({ data }) => {

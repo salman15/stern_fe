@@ -6,10 +6,11 @@ const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-
   width: 100%;
-
   padding-bottom: 100px;
+  @media screen and (max-width: 662px) {
+    flex-direction: column;
+  }
 `;
 
 const TextAndImage = ({ data }) => {

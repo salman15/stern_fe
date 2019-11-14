@@ -10,6 +10,10 @@ const Container = styled.div`
   width: 100%;
   padding: 100px 0px;
   color: white;
+  @media screen and (max-width: 662px) {
+    flex-direction: column;
+    padding: 50px;
+  }
 `;
 
 const CompanyContainer = styled.div`

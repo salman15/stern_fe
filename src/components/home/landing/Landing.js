@@ -14,6 +14,12 @@ const Container = styled.div`
   background-image: url(https://www.storefrog.com/wp-content/themes/storefrog/img/background.png);
   background-size: cover;
   color: white;
+  @media screen and (max-width: 662px) {
+    width: 100%;
+    max-width: 100%;
+    padding: 50px 0px;
+    padding-top: 100px;
+  }
 `;
 
 const CompanyImage = styled.img`
@@ -21,6 +27,10 @@ const CompanyImage = styled.img`
   height: 400px;
   max-height: 100%;
   max-width: 50%;
+  @media screen and (max-width: 662px) {
+    max-width: 100%;
+    object-fit: contain;
+  }
 `;
 
 const Landing = ({ data }) => {

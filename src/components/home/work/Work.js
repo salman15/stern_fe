@@ -6,6 +6,11 @@ const Container = styled.div`
   width: 100%;
   align-items: center;
   justify-content: space-around;
+  @media screen and (max-width: 662px) {
+    width: 100%;
+    max-width: 100%;
+    flex-direction: column;
+  }
 `;
 
 const Work = ({ data }) => {

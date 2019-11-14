@@ -10,6 +10,10 @@ const Container = styled.div`
   min-height: 40%;
   padding: 100px 40px;
   flex-direction: column;
+  @media screen and (max-width: 662px) {
+    padding: 100px 0;
+    width: 90%;
+  }
 `;
 
 const Subject = styled.p`

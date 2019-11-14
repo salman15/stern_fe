@@ -17,6 +17,9 @@ const Container = styled.div`
       color: wheat;
       text-decoration: underline;
     }
+    @media screen and (max-width: 662px) {
+      font-size: 30px;
+    }
   }
 `;
 

@@ -27,52 +27,61 @@ const Home = () => {
     <Container id="home">
       <Landing data={Copy.home.landing} />
 
-      <ContainerLayout size="100%">
-        <ContainerLayout>
-          <Partners data={Copy.partners} />
+      {Copy.partners.active && (
+        <ContainerLayout size="100%">
+          <ContainerLayout>
+            <Partners data={Copy.partners.content} />
+          </ContainerLayout>
         </ContainerLayout>
-      </ContainerLayout>
+      )}
 
-      <ContainerLayout background="#f2f3f6" size="100%">
-        <ContainerLayout direction="column">
-          <TitleAndSub
-            title={aboutUsTitle.title}
-            sub={aboutUsTitle.sub}
-            type={aboutUsTitle.type}
-            align={aboutUsTitle.align}
-          />
-          <Work data={Copy.home.aboutUs.work} />
-          <TextAndImage data={Copy.home.textAndImage} />
+      {Copy.home.aboutUs.active && (
+        <ContainerLayout background="#f2f3f6" size="100%">
+          <ContainerLayout direction="column">
+            <TitleAndSub
+              title={aboutUsTitle.title}
+              sub={aboutUsTitle.sub}
+              type={aboutUsTitle.type}
+              align={aboutUsTitle.align}
+            />
+            <Work data={Copy.home.aboutUs.work} />
+            <TextAndImage data={Copy.home.textAndImage} />
+          </ContainerLayout>
         </ContainerLayout>
-      </ContainerLayout>
+      )}
 
-      <ContainerLayout size="100%">
-        <ContainerLayout direction="column">
-          <TitleAndSub
-            title={tabTitle.title}
-            sub={tabTitle.sub}
-            type={tabTitle.type}
-            align={tabTitle.align}
-          />
-          <Tab data={Copy.home.tab.tabs} />
+      {Copy.home.tab.active && (
+        <ContainerLayout size="100%">
+          <ContainerLayout direction="column">
+            <TitleAndSub
+              title={tabTitle.title}
+              sub={tabTitle.sub}
+              type={tabTitle.type}
+              align={tabTitle.align}
+            />
+            <Tab data={Copy.home.tab.tabs} />
+          </ContainerLayout>
         </ContainerLayout>
-      </ContainerLayout>
-      <ContainerLayout
-        size="100%"
-        background="#002573"
-        backgroundImage="http://sterntelecom.com/img/map-image.png"
-      >
-        <ContainerLayout direction="column">
-          <TitleAndSub
-            title={tabTitle.title}
-            sub={tabTitle.sub}
-            type={tabTitle.type}
-            align={tabTitle.align}
-            color="white"
-          />
-          <Contact company={Copy.general.company} data={Copy.home.contact} />
+      )}
+
+      {Copy.home.contact.active && (
+        <ContainerLayout
+          size="100%"
+          background={Copy.home.contact.background}
+          backgroundImage={Copy.home.contact.backgroundImage}
+        >
+          <ContainerLayout direction="column">
+            <TitleAndSub
+              title={Copy.home.contact.titleAndSub.title}
+              sub={Copy.home.contact.titleAndSub.sub}
+              type={Copy.home.contact.titleAndSub.type}
+              align={Copy.home.contact.titleAndSub.align}
+              color={Copy.home.contact.titleAndSub.color}
+            />
+            <Contact company={Copy.general.company} data={Copy.home.contact} />
+          </ContainerLayout>
         </ContainerLayout>
-      </ContainerLayout>
+      )}
     </Container>
   );
 };

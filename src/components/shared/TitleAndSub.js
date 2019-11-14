@@ -11,6 +11,10 @@ const Container = styled.div`
   h2 {
     color: ${props => props.color};
   }
+  @media screen and (max-width: 662px) {
+    width: 90%;
+    max-width: 100%;
+  }
 `;
 
 const Title = styled.h1`

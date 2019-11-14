@@ -11,6 +11,10 @@ const MainBtn = styled.a`
   max-width: 200px;
   text-align: center;
   text-decoration: none;
+  @media screen and (max-width: 662px) {
+    width: 100%;
+    max-width: 100%;
+  }
 `;
 
 export const MainButton = ({ data, bgColor, color }) => {
