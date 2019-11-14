@@ -18,6 +18,13 @@ const Item = styled.p`
     border-radius: 7px;
     transform: rotate(-45deg);
     content: " ";
+    @media screen and (max-width: 662px) {
+      max-width: 0px;
+      max-height: 0px;
+      padding: 5px;
+      border-radius: 50%;
+      transform: rotate(0deg);
+    }
   }
   &::after {
     display: block;
@@ -30,6 +37,9 @@ const Item = styled.p`
     top: 2px;
     height: 13px;
     content: " ";
+    @media screen and (max-width: 662px) {
+      display: none;
+    }
   }
 `;
 

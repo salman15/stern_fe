@@ -12,7 +12,7 @@ const Container = styled.div`
   color: white;
   @media screen and (max-width: 662px) {
     flex-direction: column;
-    padding: 50px;
+    padding: 50px 0px;
   }
 `;
 
@@ -21,6 +21,9 @@ const CompanyContainer = styled.div`
   flex-direction: column;
   width: 50%;
   text-align: center;
+  @media screen and (max-width: 662px) {
+    width: 100%;
+  }
 `;
 
 const CompanyInfoContainer = styled.div`
@@ -36,6 +39,9 @@ const Form = styled.form`
   align-items: center;
   width: 50%;
   flex-direction: column;
+  @media screen and (max-width: 662px) {
+    width: 100%;
+  }
 `;
 
 const FormInput = styled.input`
@@ -62,6 +68,9 @@ const FormTextArea = styled.textarea`
 const Comapny = styled.h1`
   margin-top: 0px;
   width: 100%;
+  @media screen and (max-width: 662px) {
+    padding: 20px 0;
+  }
 `;
 
 const Contact = ({ data, company }) => {

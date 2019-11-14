@@ -47,6 +47,15 @@ const ListItem = styled.li`
     border: solid 1px;
     border-radius: 50%;
     content: " ";
+    @media screen and (max-width: 662px) {
+      max-width: 0px;
+      max-height: 0px;
+      padding: 5px;
+      border-radius: 50%;
+      background-color: #00d69f;
+      border: none;
+      transform: rotate(0deg);
+    }
   }
   &::after {
     display: block;
@@ -57,6 +66,9 @@ const ListItem = styled.li`
     border: solid 2px #00d69f;
     border-radius: 50%;
     content: " ";
+    @media screen and (max-width: 662px) {
+      display: none;
+    }
   }
 `;
 const Text = ({ data }) => {

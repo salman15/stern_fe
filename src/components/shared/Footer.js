@@ -18,6 +18,9 @@ const FooterContainer = styled.div`
   display: flex;
   width: 80%;
   justify-content: space-between;
+  @media screen and (max-width: 662px) {
+    width: 100%;
+  }
 `;
 
 const FooterBlock = styled.div`
@@ -25,6 +28,9 @@ const FooterBlock = styled.div`
   flex-direction: column;
   align-content: center;
   text-align: center;
+  @media screen and (max-width: 662px) {
+    margin: 0px 10px;
+  }
 `;
 
 const FooterBlockTitle = styled.p`

@@ -7,6 +7,9 @@ const Container = styled.div`
   justify-content: center;
   width: 100%;
   padding: 100px 0px;
+  @media screen and (max-width: 662px) {
+    padding-bottom: 0px;
+  }
 `;
 
 const Img = styled.img`
@@ -15,7 +18,7 @@ const Img = styled.img`
   max-height: 100%;
   border-radius: 0.25rem;
   @media screen and (max-width: 662px) {
-    height: 150px;
+    height: 200px;
   }
 `;
 

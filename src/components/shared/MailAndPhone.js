@@ -19,7 +19,11 @@ const Container = styled.div`
     }
     @media screen and (max-width: 662px) {
       font-size: 30px;
+      word-break: break-word;
     }
+  }
+  @media screen and (max-width: 662px) {
+    width: 100%;
   }
 `;
 
