@@ -1,347 +1,387 @@
 {
-    "general":{
-        "company":"Stern Telecom"
-    },
-    "header":{
-        "nav": {
-            "logo": "http://sterntelecom.com/img/logos/logo-black.png",
-            "items": [
-                {
-                    "url": "/home",
-                    "text": "Home"
-                },
-                {
-                    "url": "/about",
-                    "text": "About"
-                },
-                {
-                    "url": "/contact",
-                    "text": "Contact"
-                }
-            ]
+  "general": {
+    "company": "Stern Telecom"
+  },
+  "header": {
+    "nav": {
+      "logo": "http://sterntelecom.com/img/logos/logo-black.png",
+      "items": [
+        {
+          "url": "/home",
+          "text": "Home"
+        },
+        {
+          "url": "/about",
+          "text": "About"
+        },
+        {
+          "url": "/contact",
+          "text": "Contact"
         }
-    },
-    "footer": {
-        "copyright": "Copyright © Sterntelecom 2019",
-        "siteMap":[
-            {
-                "title":"Policy",
-                "items":[
-                    {
-                        "item":"Terms",
-                        "url":""
-                    },
-                    {
-                        "item":"policies",
-                        "url":""
-                    },
-                    {
-                        "item":"dutch law",
-                        "url":""
-                    }
-                ]
-            },
-            {
-                "title":"Support",
-                "items":[
-                    {
-                        "item":"refund",
-                        "url":""
-                    },
-                    {
-                        "item":"repairs",
-                        "url":""
-                    },
-                    {
-                        "item":"faq",
-                        "url":""
-                    }
-                ]
-            },
-            {
-                "title":"Contact",
-                "items":[
-                    {
-                        "item":"mail",
-                        "url":""
-                    },
-                    {
-                        "item":"phone",
-                        "url":""
-                    },
-                    {
-                        "item":"adress",
-                        "url":""
-                    }
-                ]
-            }
-        ]
-    },
-    "partners":{
-    "active":true,
-    "content":[
-        {
-            "company":"motorola",
-            "image":"/media/motorola.png",
-            "imageAlt":"motorola"
-        },
-        {
-            "company":"samsung",
-            "image":"/media/samsung.png",
-            "imageAlt":"samsung"
-        },
-        {
-            "company":"xiaomi",
-            "image":"/media/xiaomi.png",
-            "imageAlt":"xiaomi"
-        },
-        {
-            "company":"sharp",
-            "image":"https://logos-download.com/wp-content/uploads/2016/05/Sharp_logo_wordmark.png",
-            "imageAlit":"sharp"
-        }
-    ]},
-    "home":{
-        "landing":{
-            "titleAndSub":{
-                "title":"YOUR RELIABLE SUPPLIER OF ELECTRONIC GOODS",
-                "sub": "",
-                "text": "Stern Telecom offers products ranging from low till high end and include brands such as: Samsung, Sony, Microsoft, Motorola, Apple and more. Is your company interested? Feel free to contact us for any of your questions or remarks.",
-                "align":"space-between",
-                "type":"head"
-            },
-            "image": "https://purepng.com/public/uploads/large/samsung-galaxy-s10-models-vp6.png",
-            "button": {
-                "text":"Ga verder",
-                "url":"#"
-            },
-            "direction":"column"
-        },
-        "aboutUs":{
-            "active":true,
-            "titleAndSub":{
-                "title":"What we  do",
-                "sub": "From start to finish, we are here to help",
-                "text": "",
-                "type":"intro",
-                "align":"center"
-            },
-            "button": {
-                "text":"Ga verder",
-                "url":"#"
-            },
-            "work":[
-                {
-                    "title":"Truest",
-                    "icon":"smartphone",
-                    "text":""
-                },
-                {
-                    "title":"International",
-                    "icon":"public",
-                    "text":""
-                },
-                {
-                    "title":"International",
-                    "icon":"public",
-                    "text":""
-                },
-                {
-                    "title":"International",
-                    "icon":"public",
-                    "text":""
-                },
-                {
-                    "title":"Our products",
-                    "icon":"person",
-                    "text":""
-                }
-            ]
-        },
-        "textAndImage":{
-            "image":"https://volksshop.nl/wp-content/uploads/2019/02/stern-pand.jpg",
-            "text": {
-                "subject":"10+ countries",
-                "sticker":"Sterntelecom could be your ideal partner!",
-                "title":"OUR SERVICE",
-                "list":[
-                    {
-                        "bullet":"We ship our product to all countries including yours"
-                    },
-                    {
-                        "bullet":"We respect your needs and wishes"
-                    },
-                    {
-                        "bullet":"Because your company deserves a reliable partner"
-                    }
-                ]
-            }
-        },
-        "tab":{
-            "active": true,
-            "titleAndSub":{
-                "title":"What we  do",
-                "sub": "From start to finish, we are here to help",
-                "text": "",
-                "type":"intro",
-                "align":"center"
-            },
-            "tabs":[
-            {
-                "head":"Travel",
-                "icon":"FlightOutlined",
-                "items":[
-                    {
-                        "item":"Over the years we have created a streamlined supply chain"
-                    },
-                    {
-                        "item":"With the aim on the international market Stern Telecom is able to provide every customer and partner around the world with the best products."
-                    },
-                    {
-                        "item":"Our suppliers and intermediaries work closely together to increase efficiency and offer reliable services."
-                    }
-                ]
-            },
-            {
-                "head":"Secure",
-                "icon":"LockOutlined",
-                "items":[
-                    {
-                        "item":"Trustworthy record and 11+ years of experience"
-                    },
-                    {
-                        "item":"To ensure a trustworthy relationship, Stern Telecom offers a fitted after-sales service for “DOA” products or any warranty related issue."
-                    }
-                ]
-            },
-            {
-                "head":"Stern",
-                "icon":"BusinessOutlined",
-                "items":[
-                    {
-                        "item":"Stern Telecom has acquired many new partners over the years many of who are at the top of the business"
-                    },
-                    {
-                        "item":"We have veteran sales experts, With over 25+ years of experience. "
-                    },
-                    {
-                        "item":"After opening more than 8+ successful retail stores the owner decided to expand by shifting a part of the company focus to business-to-business."
-                    },
-                    {
-                        "item":"Stern Telecom has played an important role for the offline business of Samsung mobile phones in the Netherlands. "
-                    }
-                ]
-            }
-        ]},
-        "contact":{
-            "backgroundImage":"http://sterntelecom.com/img/map-image.png",
-            "background":"#002573",
-            "active":true,
-            "button": {
-                "text":"Ga verder",
-                "url":"#"
-            },
-            "titleAndSub":{
-                "title":"What we  do",
-                "sub": "From start to finish, we are here to help",
-                "text": "",
-                "type":"intro",
-                "align":"center",
-                "color":"white"
-            },
-            "form":{
-            "active":false,
-            "list":[{
-                "type":"email",
-                "placeholder":"place your email"
-            },{
-                "type":"company",
-                "placeholder":"place your company"
-            },{
-                "type":"tel",
-                "placeholder":"place your phone"
-            },{
-                "type":"textarea",
-                "placeholder":"place your message"
-            }]},
-            "mailAndPhone":{
-                "active":true,
-                "mailText":"Mail to:",
-                "mail":"info@sterntelecom.com",
-                "callText": "Call to:",
-                "tel":"+315323432"
-            },
-            "BankInfo":[
-                {
-                    "title":"Bank Details:",
-                    "items":[
-                        {
-                            "item": "Bank : RABO BANK: 1408.677.59"
-                        },
-                        {
-                            "item": "IBAN : NL95RABO0140867759"
-                        }, 
-                        {
-                            "item": "SWIFT- BIC: RABONL2U"
-                        }
-                    ]   
-                   },
-                   {
-                    "title":"Chamber of Commerce & VAT:",
-                    "items":[
-                        {
-                            "item": "Stern Telecom B.V"
-                        },
-                        {
-                            "item": "Kvk: 50437313 te Amsterdam"
-                        },
-                        {
-                            "item": "VAT: NL822745355.B01"
-                        }
-                    ]   
-                   }
-            ],
-            "companyInfo":[
-                
-                {
-                    "title":"Registered Address:",
-                    "items":[
-                        {
-                            "item": "Orteliusstraat 151"
-                        },
-                        {
-                            "item": "1057 AX, Amsterdam "
-                        },
-                        {
-                            "item": "The Netherlands"
-                        }
-                    ]   
-                   },
-                   {
-                    "title":"Visiting Address:",
-                    "items":[
-                        {
-                            "item": "Kruisweg 649"
-                        },
-                        {
-                            "item": "2132 NC, Hoofddorp"
-                        },
-                        {
-                            "item": "The Netherlands"
-                        }
-                    ]   
-                   },
-                   {
-                    "title":"Contact:",
-                    "items":[
-                        {
-                            "item": "TEL : +31 20 681 5744"
-                        }
-                    ]   
-                   }
-                   
-            ]
-        }
+      ]
     }
-    
+  },
+  "footer": {
+    "copyright": "Copyright © Sterntelecom 2019",
+    "siteMap": [
+      {
+        "title": "Policy",
+        "items": [
+          {
+            "item": "Terms",
+            "url": ""
+          },
+          {
+            "item": "policies",
+            "url": ""
+          },
+          {
+            "item": "dutch law",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "title": "Support",
+        "items": [
+          {
+            "item": "refund",
+            "url": ""
+          },
+          {
+            "item": "repairs",
+            "url": ""
+          },
+          {
+            "item": "faq",
+            "url": ""
+          }
+        ]
+      },
+      {
+        "title": "Contact",
+        "items": [
+          {
+            "item": "mail",
+            "url": ""
+          },
+          {
+            "item": "phone",
+            "url": ""
+          },
+          {
+            "item": "adress",
+            "url": ""
+          }
+        ]
+      }
+    ]
+  },
+  "partners": {
+    "active": true,
+    "content": [
+      {
+        "company": "motorola",
+        "image": "/media/motorola.png",
+        "imageAlt": "motorola"
+      },
+      {
+        "company": "samsung",
+        "image": "/media/samsung.png",
+        "imageAlt": "samsung"
+      },
+      {
+        "company": "xiaomi",
+        "image": "/media/xiaomi.png",
+        "imageAlt": "xiaomi"
+      },
+      {
+        "company": "sharp",
+        "image": "https://logos-download.com/wp-content/uploads/2016/05/Sharp_logo_wordmark.png",
+        "imageAlit": "sharp"
+      }
+    ]
+  },
+  "home": {
+    "landing": {
+      "titleAndSub": {
+        "title": "YOUR RELIABLE SUPPLIER OF ELECTRONIC GOODS",
+        "sub": "",
+        "text": "Stern Telecom offers products ranging from low till high end and include brands such as: Samsung, Sony, Microsoft, Motorola, Apple and more. Is your company interested? Feel free to contact us for any of your questions or remarks.",
+        "align": "space-between",
+        "type": "head"
+      },
+      "image": "https://purepng.com/public/uploads/large/samsung-galaxy-s10-models-vp6.png",
+      "button": {
+        "text": "Ga verder",
+        "url": "#"
+      },
+      "direction": "column-reverse"
+    },
+    "aboutUs": {
+      "active": true,
+      "titleAndSub": {
+        "title": "What we  do",
+        "sub": "From start to finish, we are here to help",
+        "text": "",
+        "type": "intro",
+        "align": "center"
+      },
+      "button": {
+        "text": "Ga verder",
+        "url": "#"
+      },
+      "work": [
+        {
+          "title": "Truest",
+          "icon": "smartphone",
+          "text": ""
+        },
+        {
+          "title": "International",
+          "icon": "public",
+          "text": ""
+        },
+        {
+          "title": "International",
+          "icon": "public",
+          "text": ""
+        },
+        {
+          "title": "International",
+          "icon": "public",
+          "text": ""
+        },
+        {
+          "title": "Our products",
+          "icon": "person",
+          "text": ""
+        }
+      ]
+    },
+    "textAndImage": {
+      "image": "https://volksshop.nl/wp-content/uploads/2019/02/stern-pand.jpg",
+      "text": {
+        "subject": "10+ countries",
+        "sticker": "Sterntelecom could be your ideal partner!",
+        "title": "OUR SERVICE",
+        "list": [
+          {
+            "bullet": "We ship our product to all countries including yours"
+          },
+          {
+            "bullet": "We respect your needs and wishes"
+          },
+          {
+            "bullet": "Because your company deserves a reliable partner"
+          }
+        ]
+      }
+    },
+    "tab": {
+      "active": true,
+      "titleAndSub": {
+        "title": "What we  do",
+        "sub": "From start to finish, we are here to help",
+        "text": "",
+        "type": "intro",
+        "align": "center"
+      },
+      "tabs": [
+        {
+          "head": "Travel",
+          "icon": "FlightOutlined",
+          "items": [
+            {
+              "item": "Over the years we have created a streamlined supply chain"
+            },
+            {
+              "item": "With the aim on the international market Stern Telecom is able to provide every customer and partner around the world with the best products."
+            },
+            {
+              "item": "Our suppliers and intermediaries work closely together to increase efficiency and offer reliable services."
+            }
+          ]
+        },
+        {
+          "head": "Secure",
+          "icon": "LockOutlined",
+          "items": [
+            {
+              "item": "Trustworthy record and 11+ years of experience"
+            },
+            {
+              "item": "To ensure a trustworthy relationship, Stern Telecom offers a fitted after-sales service for “DOA” products or any warranty related issue."
+            }
+          ]
+        },
+        {
+          "head": "Stern",
+          "icon": "BusinessOutlined",
+          "items": [
+            {
+              "item": "Stern Telecom has acquired many new partners over the years many of who are at the top of the business"
+            },
+            {
+              "item": "We have veteran sales experts, With over 25+ years of experience. "
+            },
+            {
+              "item": "After opening more than 8+ successful retail stores the owner decided to expand by shifting a part of the company focus to business-to-business."
+            },
+            {
+              "item": "Stern Telecom has played an important role for the offline business of Samsung mobile phones in the Netherlands. "
+            }
+          ]
+        }
+      ]
+    },
+    "contact": {
+      "backgroundImage": "http://sterntelecom.com/img/map-image.png",
+      "background": "#002573",
+      "active": true,
+      "button": {
+        "text": "Ga verder",
+        "url": "#"
+      },
+      "titleAndSub": {
+        "title": "What we  do",
+        "sub": "From start to finish, we are here to help",
+        "text": "",
+        "type": "intro",
+        "align": "center",
+        "color": "white"
+      },
+      "form": {
+        "active": false,
+        "list": [
+          {
+            "type": "email",
+            "placeholder": "place your email"
+          },
+          {
+            "type": "company",
+            "placeholder": "place your company"
+          },
+          {
+            "type": "tel",
+            "placeholder": "place your phone"
+          },
+          {
+            "type": "textarea",
+            "placeholder": "place your message"
+          }
+        ]
+      },
+      "mailAndPhone": {
+        "active": true,
+        "mailText": "Mail to:",
+        "mail": "info@sterntelecom.com",
+        "callText": "Call to:",
+        "tel": "+315323432"
+      },
+      "BankInfo": [
+        {
+          "title": "Bank Details:",
+          "items": [
+            {
+              "item": "Bank : RABO BANK: 1408.677.59"
+            },
+            {
+              "item": "IBAN : NL95RABO0140867759"
+            },
+            {
+              "item": "SWIFT- BIC: RABONL2U"
+            }
+          ]
+        },
+        {
+          "title": "Chamber of Commerce & VAT:",
+          "items": [
+            {
+              "item": "Stern Telecom B.V"
+            },
+            {
+              "item": "Kvk: 50437313 te Amsterdam"
+            },
+            {
+              "item": "VAT: NL822745355.B01"
+            }
+          ]
+        }
+      ],
+      "companyInfo": [
+        {
+          "title": "Registered Address:",
+          "items": [
+            {
+              "item": "Orteliusstraat 151"
+            },
+            {
+              "item": "1057 AX, Amsterdam "
+            },
+            {
+              "item": "The Netherlands"
+            }
+          ]
+        },
+        {
+          "title": "Visiting Address:",
+          "items": [
+            {
+              "item": "Kruisweg 649"
+            },
+            {
+              "item": "2132 NC, Hoofddorp"
+            },
+            {
+              "item": "The Netherlands"
+            }
+          ]
+        },
+        {
+          "title": "Contact:",
+          "items": [
+            {
+              "item": "TEL : +31 20 681 5744"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "LinkedIn": {
+    "titleAndSub": {
+      "title": "LinkedIn top picks",
+      "sub": "Volg ons op LinkedIn!",
+      "text": "",
+      "type": "intro",
+      "align": "center",
+      "color": "white"
+    },
+    "active":true,
+    "posts":[{ 
+      "feed":"https://www.linkedin.com/embed/feed/update/urn:li:share:6599975433733718016",
+      "height": 413,
+      "width": 504,
+      "frameborder":0,
+      "allowfullscreen":"",
+      "title":"Ingevoegde bijdrage"
+    },
+    { 
+      "feed":"https://www.linkedin.com/embed/feed/update/urn:li:share:6599975433733718016",
+      "height": 413,
+      "width": 504,
+      "frameborder":0,
+      "allowfullscreen":"",
+      "title":"Ingevoegde bijdrage"
+    },
+    { 
+      "feed":"https://www.linkedin.com/embed/feed/update/urn:li:share:6599975433733718016",
+      "height": 413,
+      "width": 504,
+      "frameborder":0,
+      "allowfullscreen":"",
+      "title":"Ingevoegde bijdrage"
+    }] 
+  }  
 }

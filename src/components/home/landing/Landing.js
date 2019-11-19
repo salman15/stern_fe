@@ -23,7 +23,7 @@ const Container = styled.div`
 `;
 
 const CompanyImage = styled.img`
-  object-fit: cover;
+  object-fit: scale-down;
   height: 400px;
   max-height: 100%;
   max-width: 50%;

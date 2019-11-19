@@ -9,6 +9,7 @@ import Tab from "../../components/home/tabs/Tab";
 import TextAndImage from "../../components/home/textAndImage/TextAndImage";
 import Contact from "../../components/shared/Contact";
 import Copy from "../../data/Copy.json";
+import LinkedInFeed from "../../components/shared/LinkedInFeed";
 
 const Container = styled.div`
   display: flex;
@@ -27,15 +28,14 @@ const Home = () => {
     <Container id="home">
       <Landing data={Copy.home.landing} />
 
-      {Copy.partners.active && (
+      {Copy.partners.active &&
         <ContainerLayout size="100%">
           <ContainerLayout>
             <Partners data={Copy.partners.content} />
           </ContainerLayout>
-        </ContainerLayout>
-      )}
+        </ContainerLayout>}
 
-      {Copy.home.aboutUs.active && (
+      {Copy.home.aboutUs.active &&
         <ContainerLayout background="#f2f3f6" size="100%">
           <ContainerLayout direction="column">
             <TitleAndSub
@@ -47,10 +47,12 @@ const Home = () => {
             <Work data={Copy.home.aboutUs.work} />
             <TextAndImage data={Copy.home.textAndImage} />
           </ContainerLayout>
-        </ContainerLayout>
-      )}
-
-      {Copy.home.tab.active && (
+        </ContainerLayout>}
+      {Copy.LinkedIn.active &&
+        <ContainerLayout>
+          <LinkedInFeed />
+        </ContainerLayout>}
+      {Copy.home.tab.active &&
         <ContainerLayout size="100%">
           <ContainerLayout direction="column">
             <TitleAndSub
@@ -61,10 +63,9 @@ const Home = () => {
             />
             <Tab data={Copy.home.tab.tabs} />
           </ContainerLayout>
-        </ContainerLayout>
-      )}
+        </ContainerLayout>}
 
-      {Copy.home.contact.active && (
+      {Copy.home.contact.active &&
         <ContainerLayout
           size="100%"
           background={Copy.home.contact.background}
@@ -80,8 +81,7 @@ const Home = () => {
             />
             <Contact company={Copy.general.company} data={Copy.home.contact} />
           </ContainerLayout>
-        </ContainerLayout>
-      )}
+        </ContainerLayout>}
     </Container>
   );
 };
